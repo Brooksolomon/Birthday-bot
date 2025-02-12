@@ -2,7 +2,7 @@
 
 A Telegram bot that helps you keep track of and celebrate birthdays! 🎂
 
-find bot at **@official_birthday_bot**
+📱find bot at **@official_birthday_bot**
 
 ## 🚀 Features
 - `/start` - Start the bot and see a welcome message.

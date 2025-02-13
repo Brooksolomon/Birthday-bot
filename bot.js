@@ -172,5 +172,5 @@ bot.command("listbirthdays", (ctx) => __awaiter(void 0, void 0, void 0, function
     const message = birthdays.map((b) => `👤 ${b.username} - ${b.date}`).join("\n");
     ctx.reply(`🎉 Birthdays:\n${message}`);
 }));
-node_cron_1.default.schedule('0 0 * * *', checkBirthdays);
+node_cron_1.default.schedule('0 5 * * *', checkBirthdays);
 bot.start();

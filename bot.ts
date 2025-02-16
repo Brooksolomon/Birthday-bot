@@ -195,6 +195,7 @@ bot.command("listbirthdays", async (ctx) => {
 
     const message = birthdays.map((b: { username: any; date: any; }) => `👤 ${b.username} - ${b.date}`).join("\n");
     ctx.reply(`🎉 Birthdays:\n${message}`);
+    
 });
 cron.schedule('0 5 * * *', checkBirthdays);
 bot.start();
